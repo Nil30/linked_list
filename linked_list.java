@@ -78,8 +78,7 @@ public class LinkedList {
         int choice = Integer.parseInt(reader.readLine());
         switch(choice) {
           case 1:
-            //System.out.println("-----------------------");
-            //System.out.println("  ");
+ 		//Modify New_Branch
             System.out.print("Enter the number to be pushed inside the stack: ");
             int data = Integer.parseInt(reader.readLine());
             stack.push(data);
